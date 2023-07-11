@@ -7,4 +7,3 @@ CREATE TABLE IF NOT EXISTS news (
     pub_time INTEGER DEFAULT 0,
     link TEXT NOT NULL UNIQUE
 );
-TRUNCATE news;
